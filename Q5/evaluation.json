@@ -1,34 +1,39 @@
 {
-  "scores": {
-    "emotional_impact": {
-      "score": 7.2,
-      "reason": "The shattered, glowing clock flanked by fleshy red roots and cold gray cables effectively evokes anxiety, mortality, and the heavy burden of time running out.",
-      "improvement": "Direct the emotional weight toward a specific disparity or insight in the data rather than a generalized feeling of morbidity."
-    },
-    "constraint_adherence": {
-      "score": 2.5,
-      "reason": "Directly violates the core constraint by relying heavily on floating text labels ('YLLs', 'YLDs', 'ALL CAUSES') to assign meaning to an otherwise abstract sculpture.",
-      "improvement": "Remove the text entirely and design visual metaphors that inherently communicate the concepts of 'lost life' versus 'disability'."
-    },
-    "visual_originality": {
-      "score": 4.5,
-      "reason": "While it avoids chart types, it falls headlong into the generic 'epic 3D AI render' clich\u00e9\u2014moody lighting, glowing focal points, and overly intricate, twisting tendrils.",
-      "improvement": "Shift away from hyper-detailed sci-fi/fantasy aesthetics toward a more grounded, tactile, or conceptually tailored visual language for human health."
-    },
-    "legibility_without_labels": {
-      "score": 1.5,
-      "reason": "Without the superimposed text, it is completely impossible for a viewer to decipher that this image relates to global disease burden or health metrics.",
-      "improvement": "Design the physical forms so their scales, shapes, and interactions visually demonstrate the dataset's specific insight without requiring an on-screen glossary."
-    },
-    "compositional_intent": {
-      "score": 5.5,
-      "reason": "The symmetrical convergence on the broken clock centers the eye, but the roughly equal visual weighting of the red and gray masses makes it impossible to discern any actual quantitative insight.",
-      "improvement": "Use scale and composition to reflect the actual proportions in the data\u2014if YLLs are significantly higher, the red mass should deliberately dominate the composition."
-    }
-  },
-  "overall_score": 4.2,
-  "brief_met": false,
-  "model_default_escaped": false,
-  "exhibition_worthy": false,
-  "one_line_verdict": "A dramatic but fundamentally flawed submission that relies entirely on explicit text to explain its generic, abstract aesthetic."
+"prompt": "A cinematic 3D render of a shattered glass clock face glowing in a dark stone cathedral. Two massive twisting structures converge on the clock. On the left, red fleshy roots and fibers. On the right, gray metallic cables. Small glass human figures are caught in the tangles. Epic lighting, moody atmosphere, highly detailed, floating text overlays.",
+"model": "Google Imagen",
+"dataset_name": "Global Burden of Disease (GBD) Study",
+"dataset_url": "https://vizhub.healthdata.org/gbd-results/",
+"insight": "The total global burden of disease is comprised of two distinct but destructive forces: premature death (Years of Life Lost) and the enduring toll of chronic illness (Years Lived with Disability), both of which fracture and consume human time.",
+"scores": {
+"emotional_impact": {
+"score": 7.2,
+"reason": "The shattered, glowing clock flanked by fleshy red roots and cold gray cables effectively evokes anxiety, mortality, and the heavy burden of time running out.",
+"improvement": "Direct the emotional weight toward a specific disparity or insight in the data rather than a generalized feeling of morbidity."
+},
+"constraint_adherence": {
+"score": 2.5,
+"reason": "Directly violates the core constraint by relying heavily on floating text labels ('YLLs', 'YLDs', 'ALL CAUSES') to assign meaning to an otherwise abstract sculpture.",
+"improvement": "Remove the text entirely and design visual metaphors that inherently communicate the concepts of 'lost life' versus 'disability'."
+},
+"visual_originality": {
+"score": 4.5,
+"reason": "While it avoids chart types, it falls headlong into the generic 'epic 3D AI render' cliché—moody lighting, glowing focal points, and overly intricate, twisting tendrils.",
+"improvement": "Shift away from hyper-detailed sci-fi/fantasy aesthetics toward a more grounded, tactile, or conceptually tailored visual language for human health."
+},
+"legibility_without_labels": {
+"score": 1.5,
+"reason": "Without the superimposed text, it is completely impossible for a viewer to decipher that this image relates to global disease burden or health metrics.",
+"improvement": "Design the physical forms so their scales, shapes, and interactions visually demonstrate the dataset's specific insight without requiring an on-screen glossary."
+},
+"compositional_intent": {
+"score": 5.5,
+"reason": "The symmetrical convergence on the broken clock centers the eye, but the roughly equal visual weighting of the red and gray masses makes it impossible to discern any actual quantitative insight.",
+"improvement": "Use scale and composition to reflect the actual proportions in the data—if YLLs are significantly higher, the red mass should deliberately dominate the composition."
+}
+},
+"overall_score": 4.2,
+"brief_met": false,
+"model_default_escaped": false,
+"exhibition_worthy": false,
+"one_line_verdict": "A dramatic but fundamentally flawed submission that relies entirely on explicit text to explain its generic, abstract aesthetic."
 }
