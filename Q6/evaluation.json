@@ -1,0 +1,6 @@
+{
+  "prompt": "A photorealistic image, devoid of any text, graphics, or symbolic overlays, focusing purely on a physical, real-world scene. An elderly, anxious tailor is meticulously sewing an intricate, hyper-precise tweed suit directly onto a jagged, bizarrely shaped boulder, fitting every seam into the rock’s specific, random imperfections, cracks, and mossy crevices. Next to it sits a second, similarly rough boulder with a completely different shape, making it visually apparent that the tailored garment could never fit anything else. The composition emphasizes the contrast between the delicate, specialized needlework and the immoveable, noisy stone, rendered with cinematic, high-texture photography.",
+  "model": "DALL·E 3",
+  "concept": "Overfitting",
+  "metaphor": "A tailor sews a suit to a specific rock's unique cracks (noise/training data). The hyper-precise fit fails to generalize to a second, differently shaped rock (test data)."
+}
