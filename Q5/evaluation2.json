@@ -1,9 +1,9 @@
 {
-"prompt": "A cinematic 3D render of a shattered glass clock face glowing in a dark stone cathedral. Two massive twisting structures converge on the clock. On the left, red fleshy roots and fibers. On the right, gray metallic cables. Small glass human figures are caught in the tangles. Epic lighting, moody atmosphere, highly detailed, floating text overlays.",
-"model": "Google Imagen",
-"dataset_name": "Global Burden of Disease (GBD) Study",
+"prompt": "A cinematic 3D render of a glowing shattered glass clock in a dark stone cathedral, entangled by two massive twisting structures. On the left, red fleshy roots and fibers. On the right, gray metallic cables. Small transparent human figures are caught in the tangles. Floating text overlays read 'ALL CAUSES, 2023', 'Years of Life Lost (YLLs)', and 'Years Lived with Disability (YLDs)'. Epic lighting, highly detailed.",
+"model": "Midjourney",
+"dataset_name": "Global Burden of Disease (GBD)",
 "dataset_url": "https://vizhub.healthdata.org/gbd-results/",
-"insight": "The total global burden of disease is comprised of two distinct but destructive forces: premature death (Years of Life Lost) and the enduring toll of chronic illness (Years Lived with Disability), both of which fracture and consume human time.",
+"insight": "The total global burden of disease is comprised of two forces: premature death (Years of Life Lost) and the enduring toll of chronic illness (Years Lived with Disability), both of which fracture and consume human time.",
 "scores": {
 "emotional_impact": {
 "score": 7.2,
